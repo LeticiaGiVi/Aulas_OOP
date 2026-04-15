@@ -5,7 +5,7 @@ public class motoboys {
     String placaMoto;
     int telefone;
 
-    public void FazerEntrega(){
+    public void Cadastrarentregador(){
 
     }
 }
