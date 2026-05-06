@@ -5,14 +5,14 @@ void main() {
     RoboTerrestre robozin = new RoboTerrestre();
 
     Scanner entrada = new Scanner(System.in);
-
-    System.out.println("cadastro do operador: ");
+    System.out.println("Sistema de Missões de Drones e Robôs Ambientais");
+    System.out.println("\ncadastro do operador: ");
     tecnico.cadastrarOperador(entrada);
 
-    System.out.println("Cadastro de Equipamento:");
+    System.out.println("\nCadastro de Equipamento:");
     equip.cadastrarEquipamento(entrada);
 
-    System.out.println("Que tipo de equipamento voce vai cadastrar? ");
+    System.out.println("\nQue tipo de equipamento voce vai cadastrar? ");
     System.out.println("digite 1 para drones");
     System.out.println("ou 2 para robos");
     int num = entrada.nextInt();
@@ -26,7 +26,7 @@ void main() {
     else{
         System.out.println("Voce digitou um numero invalido :(");
     }
-
+    System.out.println("\n dados cadastrados: ");
     tecnico.exibirDados();
     equip.exibirDados();
     if (num == 1){

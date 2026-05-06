@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Participante {
     private int id;
     private String nome;
-    private int CPF;
+    private String CPF;
     private String email;
 
     public void setId(int id) {
@@ -20,10 +20,10 @@ public class Participante {
         return nome;
     }
 
-    public void setCPF(int CPF) {
+    public void setCPF(String CPF) {
         this.CPF = CPF;
     }
-    public int getCPF() {
+    public String getCPF() {
         return CPF;
     }
 
@@ -35,17 +35,24 @@ public class Participante {
     }
 
     public void cadastrarparticipante(Scanner entrada){
-        System.out.println("Cadastro de Clientes!");
+        System.out.println("\nCadastro de participantes!");
         System.out.println("Identificação: ");
         setId(entrada.nextInt());
         entrada.nextLine();
         System.out.println("Nome: ");
         setNome(entrada.nextLine());
         System.out.println("CPF: ");
-        setCPF(entrada.nextInt());
-        entrada.nextLine();
+        setCPF(entrada.nextLine());
         System.out.println("Email: ");
         setEmail(entrada.nextLine());
+    }
+
+    public void exibirDados(){
+        System.out.println("\nPaticipante cadastrado:");
+        System.out.println("ID: " + getId());
+        System.out.println("Nome: "+ getNome());
+        System.out.println("CPF: " + getCPF());
+        System.out.println("Email: "+ getEmail());
     }
 
 }

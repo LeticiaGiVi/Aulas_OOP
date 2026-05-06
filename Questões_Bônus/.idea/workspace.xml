@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c3ddbf5-0b00-4805-8256-b22be8793a56" name="Changes" comment="" />
+    <list default="true" id="3c3ddbf5-0b00-4805-8256-b22be8793a56" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Questao2/src/OficinaCriativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Questao2/src/OficinaCriativa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3D3ElGQBBxUn01Em5sqOgPpMJKa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,11 +25,15 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/leticia/Área de trabalho/Aulas_OOP/Exercicio_LocadoraAutomoveis",
-    "nodejs_package_manager_path": "npm"
+    "last_opened_file_path": "C:/Users/Letic/OneDrive/Desktop/Aulas_OOP/Questões_Bônus",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="TaskManager">
@@ -34,6 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777502501728</updated>
+      <workItem from="1778095441929" duration="277000" />
     </task>
     <servers />
   </component>

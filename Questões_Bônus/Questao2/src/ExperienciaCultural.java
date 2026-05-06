@@ -35,7 +35,7 @@ public class ExperienciaCultural {
     }
 
     public void cadastrarExperiencia(Scanner entrada){
-        System.out.println("Cadastro de Experiencia:");
+        System.out.println("\nCadastro de Experiencia:");
         System.out.println("Identificação: ");
         setId(entrada.nextInt());
         entrada.nextLine();
@@ -53,7 +53,7 @@ public class ExperienciaCultural {
         qntInscricoes += 1;
     }
     public void ExibirDados(){
-        System.out.println("dados cadastrados Experiencia");
+        System.out.println("\ndados cadastrados Experiencia");
         System.out.println("Identificação: " + getId());
         System.out.println("Nome: " + getNome());
         System.out.println("Valor: " + getValor());

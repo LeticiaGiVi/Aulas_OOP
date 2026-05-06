@@ -28,7 +28,7 @@ public class ShowMusical extends ExperienciaCultural {
     }
 
     public void cadastrarShow(Scanner entrada){
-        System.out.println("Cadastro Show: ");
+        System.out.println("\nCadastro Show: ");
         System.out.println("Estilo musical: ");
         setEstiloMusical(entrada.nextLine());
         System.out.println("Setor: ");
@@ -38,7 +38,7 @@ public class ShowMusical extends ExperienciaCultural {
         entrada.nextLine();
     }
     public void ExibirDadosS(){
-        System.out.println("dados cadastrados Show");
+        System.out.println("\ndados cadastrados Show");
         System.out.println("Estilo musical: " + getEstiloMusical());
         System.out.println("Setor: " + getSetor());
         System.out.println("Tem encontro com artistas?: " + getEncontroArtistas());
